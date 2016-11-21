@@ -1,0 +1,103 @@
+#navbar{
+   margin-left:25%;
+    margin-top: 2%;
+    
+}
+
+
+body{
+ background-image:url(https://static.pexels.com/photos/65063/pexels-photo-65063.jpeg);
+ 
+}
+
+h1{
+    text-align:center;
+    Font-family: 'Assistant',Sans-Serif;
+}
+
+#banner{
+   background-color:#009999; 
+   color:white;
+   font-size: 42px; 
+   text-align: center;
+   font-family:'Oleo Script Swash Caps',Cursive;
+   
+}
+
+.menu{
+   background-color: rgba(77,0,153,.5);
+   font-family:'Oleo Script Swash Caps',Cursive;
+   color: white;
+   display: inline;
+   padding: 1%;
+   border: 5%;
+   
+}
+
+.menu > a{
+    text-decoration: none;
+    
+}
+
+.menu a:hover{
+    font-size: 20px;
+    color:#66cdaa;
+}
+
+#quick{
+    background-color: rgba(77,153,0,.7); 
+    color:white; 
+    text-align:center; 
+    width:50%; 
+    margin:auto; 
+    display: inline-block;
+    font-family: 'Assistant',Sans-Serif;
+}
+
+.summary{
+    float:right;
+    background-color: rgba(77,0,153,.7); 
+    color:white;
+    text-align:left; 
+    width:45%;
+    font-family: 'Assistant',Sans-Serif;
+    
+}
+
+.preview{
+    background-color: rgba(0,153,153,.6); 
+    color:white; 
+    font-family:Georgia;
+    width: 60%;
+    margin:auto;
+}
+
+
+.fullsize{
+    width: 15%;
+    border:5px solid #4d9900;
+    position: relative;
+    left: 25%;
+}
+
+.supplies{
+    background-color: rgba(77,0,153,.5); 
+    color:white; 
+}
+
+/*unclicked links*/
+
+a:link{
+    color:white;
+}
+
+/*clicked links*/
+
+a:visited{
+ color:#ED260C;   
+}
+
+.enlarge{
+    width:50%;
+    margin:auto;
+}
